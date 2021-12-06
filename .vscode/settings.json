@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "limits": "cpp",
+        "algorithm": "cpp",
+        "array": "cpp",
+        "*.tcc": "cpp",
+        "memory": "cpp",
+        "istream": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp"
+    },
+    "python.formatting.provider": "black",
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    "python.pythonPath": ".venv/bin/python",
+}

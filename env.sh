@@ -1,0 +1,1 @@
+export PATH=/home/wanyao/guiyi/opt/llvm-10.0/bin:${PATH}
