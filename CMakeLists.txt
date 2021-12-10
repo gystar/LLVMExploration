@@ -8,7 +8,7 @@ file(GLOB_RECURSE CFG_SRC_CPPS cfg/*.cpp)
 add_executable(cfgbuilder main.cpp ${CFG_SRC_CPPS})
 
 # llvm surport
-set(LLVM_DIR "/home/wanyao/guiyi/opt/llvm-10.0/lib/cmake/llvm")
+set(LLVM_DIR "/opt/llvm-10/lib/cmake/llvm")
 find_package(LLVM CONFIG REQUIRED)
 include_directories("." ${LLVM_INCLUDE_DIRS})
 add_definitions(${LLVM_DEFINITIONS_LIST})
